@@ -1,0 +1,24 @@
+﻿@model CustomerReading.Entities.UserLogin
+
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_Layout_Login.cshtml";
+}
+
+@using (Html.BeginForm("Index", "Login", FormMethod.Post))
+{
+
+<div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    @Html.TextBoxFor(model => model.UserName, new { id = "txtUsername", Value = "", @class = "form-control" })
+    @Html.ValidationMessageFor(model => model.UserName, "", new { @class = "text-danger" })
+</div>
+<div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    @Html.PasswordFor(model => model.Password, new { id = "txtPassword", Value = "", @class = "form-control" })
+    @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+</div>
+   
+    <button type="submit" class="btn btn-primary">Submit</button>
+}
+

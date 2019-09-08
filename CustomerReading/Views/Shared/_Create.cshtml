@@ -1,0 +1,36 @@
+﻿@model CustomerReading.Entities.Customer
+
+<div class="form-group">
+    <label for="txtId">Id</label>
+    @Html.DisplayFor(model => model.Id, new { id = "txtId", Value = Model.Id, @class = "form-control" })
+
+</div>
+<div class="form-group">
+    @Html.LabelFor(model => model.FirstName)
+    @Html.TextBoxFor(model => model.FirstName, new { id = "txtFirstName", Value = Model.FirstName, @class = "form-control" })
+    @Html.ValidationMessageFor(model => model.FirstName, "", new { @class = "text-danger" })
+</div>
+
+<div class="form-group">
+    <label for="txtLastName">Last Name</label>
+    @Html.TextBoxFor(model => model.LastName, new { id = "txtLastName", Value = Model.LastName, @class = "form-control" })
+    @Html.ValidationMessageFor(model => model.LastName, "", new { @class = "text-danger" })
+</div>
+
+<div class="form-group">
+    <label for="txtEmail">Email</label>
+    @Html.TextBoxFor(model => model.Email, new { id = "txtEmail", Value = Model.Email, @class = "form-control" })
+    @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+</div>
+
+<div class="form-group">
+    <label for="txtContactNo">Contact</label>
+    @Html.TextBoxFor(model => model.ContactNo, new { id = "txtContactNo", Value = Model.ContactNo, @class = "form-control" })
+    @Html.ValidationMessageFor(model => model.ContactNo, "", new { @class = "text-danger" })
+</div>
+
+<div class="form-group">
+    <label for="txtAddress">Address</label>
+    @Html.TextBoxFor(model => model.Address, new { id = "txtAddress", Value = Model.Address, @class = "form-control" })
+</div>
+

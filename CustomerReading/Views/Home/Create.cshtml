@@ -1,0 +1,15 @@
+﻿@model CustomerReading.Entities.Customer
+
+@{
+    ViewBag.Title = "Create";
+}
+<h2>Create</h2>
+@using (Html.BeginForm("Create", "Home", FormMethod.Post))
+{
+
+    Html.RenderPartial("_Create", Model);
+
+    <button type="submit" class="btn btn-primary">Save</button>
+    <button onclick="location.href='@Url.Action("Customers", "Home")';return false;">Cancel</button>
+}
+

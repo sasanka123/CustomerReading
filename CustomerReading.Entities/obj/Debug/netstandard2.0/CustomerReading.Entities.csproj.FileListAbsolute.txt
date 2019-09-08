@@ -1,0 +1,16 @@
+F:\Tests\DiamensionSoftware\CustomerReading\CustomerReading.Entities\bin\Debug\netstandard2.0\CustomerReading.Entities.deps.json
+F:\Tests\DiamensionSoftware\CustomerReading\CustomerReading.Entities\bin\Debug\netstandard2.0\CustomerReading.Entities.dll
+F:\Tests\DiamensionSoftware\CustomerReading\CustomerReading.Entities\bin\Debug\netstandard2.0\CustomerReading.Entities.pdb
+F:\Tests\DiamensionSoftware\CustomerReading\CustomerReading.Entities\bin\Debug\netstandard2.0\System.ComponentModel.DataAnnotations.dll
+F:\Tests\DiamensionSoftware\CustomerReading\CustomerReading.Entities\bin\Debug\netstandard2.0\System.Configuration.dll
+F:\Tests\DiamensionSoftware\CustomerReading\CustomerReading.Entities\bin\Debug\netstandard2.0\System.Security.dll
+F:\Tests\DiamensionSoftware\CustomerReading\CustomerReading.Entities\bin\Debug\netstandard2.0\System.ComponentModel.DataAnnotations.xml
+F:\Tests\DiamensionSoftware\CustomerReading\CustomerReading.Entities\bin\Debug\netstandard2.0\System.Configuration.xml
+F:\Tests\DiamensionSoftware\CustomerReading\CustomerReading.Entities\bin\Debug\netstandard2.0\System.Security.xml
+F:\Tests\DiamensionSoftware\CustomerReading\CustomerReading.Entities\obj\Debug\netstandard2.0\CustomerReading.Entities.csprojAssemblyReference.cache
+F:\Tests\DiamensionSoftware\CustomerReading\CustomerReading.Entities\obj\Debug\netstandard2.0\CustomerReading.Entities.csproj.CoreCompileInputs.cache
+F:\Tests\DiamensionSoftware\CustomerReading\CustomerReading.Entities\obj\Debug\netstandard2.0\CustomerReading.Entities.AssemblyInfoInputs.cache
+F:\Tests\DiamensionSoftware\CustomerReading\CustomerReading.Entities\obj\Debug\netstandard2.0\CustomerReading.Entities.AssemblyInfo.cs
+F:\Tests\DiamensionSoftware\CustomerReading\CustomerReading.Entities\obj\Debug\netstandard2.0\CustomerReading.Entities.csproj.CopyComplete
+F:\Tests\DiamensionSoftware\CustomerReading\CustomerReading.Entities\obj\Debug\netstandard2.0\CustomerReading.Entities.dll
+F:\Tests\DiamensionSoftware\CustomerReading\CustomerReading.Entities\obj\Debug\netstandard2.0\CustomerReading.Entities.pdb
